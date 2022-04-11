@@ -1,0 +1,62 @@
+.center {
+     text-align: center;
+}
+.left {
+     text-align: left;
+}
+ h2 {
+     color: black;
+}
+ #resp-table {
+     width: 100%;
+     display: table;
+}
+ #resp-table-body{
+     display: table-row-group;
+}
+ .resp-table-row{
+     display: table-row;
+}
+ .table-body-cell{
+     text-align: center;
+     display: table-cell;
+     padding: 8px;
+     width: 30%;
+     line-height: 1.42857143;
+     vertical-align: top;
+}
+ .para_style{
+     color: black;
+     font-weight: bold;
+     text-align: center;
+}
+ .img_style {
+     border-radius: 50%;
+     width: 200px;
+     height: 250px;
+}
+ .background_color{
+     background-color:#f5f5f5;
+}
+ .nameToBeReplaced {
+     visibility: hidden;
+}
+ .nameToBeReplaced:after {
+     visibility: visible;
+     content: "Avinash Kumar Singh";
+}
+ .locationToBeReplaced {
+     visibility: hidden;
+}
+ .locationToBeReplaced:after {
+     visibility: visible;
+     content: "Bangalore, India";
+}
+ .ageToBeReplaced {
+     visibility: hidden;
+}
+ .ageToBeReplaced:after {
+     visibility: visible;
+     content: "32";
+}
+ 
